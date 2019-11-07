@@ -702,4 +702,12 @@ footer a:hover {
 }
 
 
+@media screen and (max-width:650px){
+	li.ulli {
+		margin:0;
+		padding-left:5px;
+		padding-right:5px;
+	}
+}
+
 
