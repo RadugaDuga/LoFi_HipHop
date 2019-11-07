@@ -1,0 +1,214 @@
+html {
+	
+
+}
+
+body {
+	font-family:'Exo 2' !important ;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+
+
+
+
+
+
+
+
+
+.fon {
+	background: url('noch.png');
+	width:100%;
+	height: 2000px;
+	background-attachment:fixed;
+	
+}
+
+.block {
+	
+	position: fixed;
+	
+	width:100%;
+	height:100px;
+	background: rgba(1,1,1,0.4);
+	margin-bottom:10px;
+	z-index: 99999;
+}
+
+.box {
+	display: flex;
+	flex:0.7;
+
+}
+
+.box1 {
+	display: flex;
+	flex:0.3;
+
+}
+
+
+.block h1 {
+	width:100%;
+	color:white;
+	text-align: center;
+	padding-top:22px;
+	font-size:50px;
+	letter-spacing: 5px;
+	padding-bottom: 25px;
+	text-decoration: none;
+	
+}
+
+h1:hover{
+	background: rgba(1,1,1,0.2);
+	
+}
+a {
+	text-decoration: none;
+}
+
+.redo {
+	
+	
+	width:100%;
+	height: 3000px;
+	background: linear-gradient(-225deg, #12c2e9, #c471ed, #f64f59);
+	background-size: 200% 200%;
+	animation: alah 7s ease infinite;
+}
+
+
+@keyframes alah {
+		0% { background-position:left; }
+
+		50% { background-position: right; }
+
+		100% { background-position:left; }
+
+}
+
+.container {
+	width:80%;
+	margin:0 auto;
+	padding-top:90px;
+	height:1700px;
+
+}
+
+.back {
+	background: rgba(1,1,1,0.25);
+	width:auto;
+	border-radius: 5px;
+	margin-top:30px;
+	display:flex;
+}
+
+.flume {
+	justify-content: flex-start;
+	flex:0.5;
+	display: flex;
+	align-items: center;
+	color:white;
+	text-align:left;
+	padding:15px;
+	min-width: 263px;
+	line-height: 1.40;
+}
+
+.one {
+	margin-left:30px;
+	justify-content: flex-end!important;
+}
+
+
+.youtube {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1480px){
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1480px){
+
+.container{
+	width:60%;
+}
+
+.back {
+	flex-direction: column;
+}
+
+.box {
+	align-items: center;
+	justify-content: center;
+}
+
+.box1 {
+	align-items: center;
+	justify-content: center;
+}
+
+
+
+.flume {
+	justify-content: right;
+}
+
+.one {
+	margin:0;
+	justify-content: flex-end;
+}
+
+
+
+}
+
+
+
+
+
+@media screen and (max-width:1000px){
+
+	.container{
+		width:575px;
+		margin:0 auto;
+	}
+}
