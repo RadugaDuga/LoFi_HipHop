@@ -4,15 +4,20 @@ html {
 	 ;
 }
 
-
-
-
-
 body {
 	
 	font-family:'Exo 2' !important ;
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -453,7 +458,7 @@ footer ul {
 
 .lifut {
 	color:white;
-	margin:10px 10px;
+	margin:10px 0px;
 	text-align:left;
 	font-size:14px;
 }
@@ -711,3 +716,17 @@ footer a:hover {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
